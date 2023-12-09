@@ -25,27 +25,22 @@ El trabajo lo hemos dividido en una carpeta que dentro de ella contiene  60 html
 
 - Menú Navegación:
 
- -Menu HTML
- (https://github.com/FrancescFiol/ProyectoWebResponsive/assets/151858230/a5de9b64-3749-4fe6-ac8f-7a8ad187d763)
+ ![Menú navegación HTML] 
 
+ ![Menú navegación CSS] 
 
- -Menu CSS
- (https://github.com/FrancescFiol/ProyectoWebResponsive/assets/151858230/7e8f511b-b005-41e9-bfc8-c0e5ce6676d7)
-
+ ![Menú navegación] 
 
 - Ropa:
 
-![Ropa HTML]
+![Ropa HTML] 
 
+![Ropa CSS] 
 
-![Ropa CSS]![RopaCSS](https://github.com/FrancescFiol/ProyectoWebResponsive/assets/151858230/1306e8a7-3160-4e96-b758-3a4404874d8b)
-
-
-![Ropa]![RopaHTML](https://github.com/FrancescFiol/ProyectoWebResponsive/assets/151858230/445f27ae-ea30-4778-ab60-5ac17a44be77)
-
+![Ropa] 
 
 ##Excel del Trabajo ejecutadao por persona:
 
 
-![Ropa]![Excel](https://github.com/FrancescFiol/ProyectoWebResponsive/assets/151858230/84cf3d91-f220-4578-8502-d3dad34a264d)
+![Ropa] 
 
