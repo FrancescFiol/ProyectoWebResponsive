@@ -1,0 +1,111 @@
+
+
+*{
+    background-color: rgb(215, 208, 208);
+}
+
+h1{
+    text-align: center;
+    
+}
+
+/*Menú de Navegación*/
+nav{
+    text-align: center;
+}
+.selected {   /*aqui empezamos ha dar estilo a nuestro navegador de la web*/
+    display: inline-block; /*Hacemos que el navegador interactue como objeto en linea y como de bloque*/
+    text-decoration: none; /*le quitamos la decoracion del enlace que es la barra de abajo que lleva por defecto*/
+    font-size: 15px; /*le damos un tamaño a la letra*/
+    position: relative;
+    margin: 10px; /* le damos un margen de 10px*/
+    color: black;/*color de la letra que sea blanca*/
+    
+}
+
+a::after {  /*Aqui empezamos ha crear el efecto al seleccionar algo del navegador*/
+    content: ""; /*creamos un contenido em blanco*/
+    background-color: black; /*le damos color a ese contenido de fondo*/
+    position: absolute; /*que ocupe ese contenido el mismo tamaño que la palabra*/
+    left: 0; /*lo posicionamos correctamente*/
+    top: 100%; /*lo seguimos posicionando*/
+    width: 100%; /* largura del 100%*/
+    height: 4px; /*una altura de 4px*/
+    opacity: 0; /*le decimos que se ponga transparente*/
+    transition: opacity 0.3s;/* y lo que tarde en aparecer*/
+}
+
+a:hover::after{
+    opacity: 0.8; /*le indicamos como queremos que aparezca cuando pasemos por encima del enlace*/
+}
+
+/*IMAGEN DE COMPRA*/
+.slider{
+    width: 95%;
+    margin: auto; /*decimos que la imagen ocupe el movimento en toda la pagina*/
+    overflow: hidden;
+}
+.slider ul {
+    padding: 0;
+    display: flex;
+    width: 400%;
+
+    animation: cambio 20s infinite; /*el tiempo que pase todas las fotos*/
+    animation-direction: alternate;
+}
+.slider li {
+    width: 100%;
+    list-style: none; /*Que no se vea los puntos de la lista*/
+}
+
+
+@keyframes cambio { /*Lo que dura cada imagen en porcentajes*/
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+
+
+
+/*CONFIGURACIÓN DE PAGO*/
+.x {
+    text-align: center;
+}
+
+article{
+    text-align: center;
+    padding: 10PX;
+
+    
+}
+.n{
+    display: block;
+}
+
+.intr{
+    text-align: justify;
+}
+.Precio {
+    text-align: center;
+}
+
+button:hover{
+    background-color: rgb(139, 137, 137); /*cuando pases por encima del boton que cambie de color*/
+}
+
+/*RESPONSIVE PANTALLA GRANDE*/
+
+@media screen and (max-width:2000px) and (min-width:1300px) {
+    .intr{
+        margin-left: 400px;
+        margin-right: 400px;
+    }
+}
