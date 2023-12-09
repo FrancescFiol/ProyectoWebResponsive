@@ -31,7 +31,7 @@ El trabajo lo hemos dividido en una carpeta que dentro de ella contiene  60 html
  ![Menú navegación CSS]![NavCSS](https://github.com/FrancescFiol/ProyectoWebResponsive/assets/151858230/7e8f511b-b005-41e9-bfc8-c0e5ce6676d7)
 
 
- ![Menú navegación]![Nav](https://github.com/FrancescFiol/ProyectoWebResponsive/assets/151858230/c939919d-5401-4c17-8b2f-d6af016ef1fb)
+ ![Menú navegación NAV]![NavCSS](https://github.com/FrancescFiol/ProyectoWebResponsive/assets/151858230/802a42d0-5a7b-46b7-b4e0-08eab932fe89)
 
 
 - Ropa:
